@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void display (int counts){
-        items.setText(""+counts);
+        items.setText(Integer.toString(counts));
 
     }
     private String ordersummary (String person,boolean addWhippedCream,boolean addchocolate){
